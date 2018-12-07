@@ -8,13 +8,13 @@ def is_prime(x):
     else:
         return False
     
-def prime100():
+def primes(x):
     c, i = 0, 0
-    while c < 100:
+    while c < x:
         if is_prime(i):
             print(i)
             c += 1
         i += 1
 
 # generate the first 100 prime numbers
-prime100()
+primes(100)
