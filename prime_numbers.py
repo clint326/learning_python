@@ -17,4 +17,5 @@ def prime100():
             c = c + 1
         i = i + 1
 
+# generate the first 100 prime numbers
 prime100()
