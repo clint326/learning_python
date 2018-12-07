@@ -9,13 +9,12 @@ def is_prime(x):
         return False
     
 def prime100():
-    c = 0
-    i = 0
+    c, i = 0, 0
     while c < 100:
         if is_prime(i):
             print(i)
-            c = c + 1
-        i = i + 1
+            c += 1
+        i += 1
 
 # generate the first 100 prime numbers
 prime100()
